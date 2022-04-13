@@ -15,7 +15,11 @@ return [
     |
     */
 
-    'paths' => ['*'],
+    'paths' => [
+        'login',
+        'register',
+        'api/v1/*'
+    ],
 
     'allowed_methods' => ['*'],
 
