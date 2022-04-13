@@ -16,7 +16,9 @@ return [
     */
 
     'paths' => [
+        'sanctum/crfs-cookie',
         'login',
+        'logout',
         'register',
         'api/v1/*'
     ],
